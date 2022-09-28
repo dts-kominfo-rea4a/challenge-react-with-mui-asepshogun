@@ -18,7 +18,7 @@ const Header = () => {
       </head>
       
       <Typography variant='title'>
-        <title></title>
+        <title>{title}</title>
       </Typography>
       <div>
       <Typography variant='subtitle'>
