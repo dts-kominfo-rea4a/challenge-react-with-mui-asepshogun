@@ -6,6 +6,8 @@ import { Typography } from '@mui/material';
 // Header berisi judul dan subtitle
 // Judul: Call a Friend
 // Subtitle: Your friendly contact app
+
+const title = screen.getByText(/call a friend/i);
 const Header = () => {
   return (
     <>
@@ -16,7 +18,7 @@ const Header = () => {
       </head>
       
       <Typography variant='title'>
-        Call a Friend
+        <title></title>
       </Typography>
       <div>
       <Typography variant='subtitle'>
