@@ -7,7 +7,7 @@ import { Typography } from '@mui/material';
 // Judul: Call a Friend
 // Subtitle: Your friendly contact app
 
-const title = screen.getByText(/call a friend/i);
+const title = "Call a Friend";
 const Header = () => {
   return (
     <>
