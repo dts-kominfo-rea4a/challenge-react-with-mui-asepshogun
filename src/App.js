@@ -58,7 +58,8 @@ const App = () => {
       <div className={classes.root}>
       <Grid container spacing={3}>
         <Grid item xs={12}>
-          <Header />
+          <Header><div>{Header}</div></Header>
+          {/* <Header /> */}
           
         </Grid>
         <Grid item xs={6}>
